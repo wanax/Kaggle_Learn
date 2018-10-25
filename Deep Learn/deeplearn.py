@@ -14,8 +14,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
 
 data = pd.read_csv('2c_weka.csv')
+
+print(data.iloc[0, :])
 
 #print(plt.style.available)
 #plt.style.use('ggplot')
